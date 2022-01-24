@@ -14506,7 +14506,7 @@
             !e.lastPlayedTs || Na(new Date(e.lastPlayedTs), e.today) >= 1
               ? ((e.boardState = new Array(6).fill("")),
                 (e.evaluations = new Array(6).fill(null)),
-                (e.solution = "kapwa"),
+                (e.solution = "fiver"),
                 (e.dayOffset = Ga(e.today)),
                 (e.lastCompletedTs = o.lastCompletedTs),
                 (e.hardMode = o.hardMode),
